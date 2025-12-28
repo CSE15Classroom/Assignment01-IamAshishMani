@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: black;
 }
@@ -57,4 +58,65 @@ body{
             .div-img{
                 display: grid;
                 justify-content: left;
+=======
+body{
+    background-color: black;
+}
+.individual-product
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 30px;
+                height: 380px;
+                margin: 20px 30px 0 30px;
+            }
+            .part-container
+            {
+                background-color: white;
+                height: 100%;
+                position: relative;
+            }
+            .product
+            {
+                width: 100%;
+                height: 225px;
+                object-fit: contain;
+                align-content: start;
+            }
+            .product-info
+            {   
+                margin: 10px 0 0 5px;
+                font-size: 18px;
+                font-weight: 600;
+                padding: 0 0 0 10px;
+            }
+            .price
+            {
+                font: 12px;
+                font-weight: 900;
+                margin: 5px 0 0 10px;
+                margin: 10px 0 10px 0;
+                padding: 0 0 0 20px;
+            }
+            .add-to-cart
+            {
+                height: 35px;
+                width: 30%;
+                border-radius: 35px;
+                border: 1px solid rgb(250, 212, 0);
+                background-color: rgb(250, 212, 0);
+                margin: 0 0 0 10px;
+            }
+            .buy-now
+            {
+                height: 35px;
+                width: 30%;
+                border-radius: 35px;
+                border: 1px solid rgb(250, 129, 0);
+                background-color: rgb(250, 129, 0);
+            }
+            .div-img{
+                display: grid;
+                justify-content: left;
+>>>>>>> 02cb807ebe63f9d26b1edd7c6df3ab0caabcba0c
             }
