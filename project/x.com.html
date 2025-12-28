@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>X</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                overflow: hidden;
+            }
+            .container
+            {
+                display: grid;
+            }
+            .twitter-logo
+            {
+                translate: 82% -160%;
+                width: 300px;
+                height: 300px;
+            }
+            .aos
+            {
+                padding-right: 100px;
+                margin-left: 50%;
+            }
+            .appeaser
+            {
+                font-size: 65px;
+                text-align: end;
+                font-weight: 600;
+                font-family: "Archivo Black", sans-serif;
+                margin: 90px 0 0 0 ;
+                
+            }
+            .join-today
+            {
+                text-align:end;
+                padding-right: 380px;
+                margin: 40px 0 0 0 ;
+                font-family: "Noto Sans JP", sans-serif;
+                font-size: 30px;
+                font-weight: 900
+            }
+            .button-one, .button-two
+            {
+                text-align: center;
+                margin: 0 120px 0 0;
+            }
+            .button-one
+            {
+                padding: 30px 0 0 0;
+
+            }
+            .button-two{
+                margin-top: 15px;
+            }
+            .google, .apple
+            {
+                width: 300px;
+                height: 38px;
+                border-radius: 20px;
+                border: 1px solid rgb(219, 219, 219);
+                background-color: white;
+                font-size: 14px;
+                font-family: "Roboto", sans-serif;
+                padding: 0 0 9px 0;
+                cursor: pointer;
+            }
+            .google:hover
+            {
+                background-color: rgb(233, 249, 255);
+                transform: scale(1.02);
+            }
+            .apple:hover
+            {
+                background-color: rgb(220, 220, 220);
+                transform: scale(1.02);
+            }
+            .google-img, .apple-img
+            {
+                height: 20px;
+                width: 20px;
+                translate: -7px 5px;
+            }
+            .or 
+            {
+                align-items: end;
+                display: grid;
+                grid-template-columns: 144px 25px 144px;
+                justify-content: end;
+                align-items: center;
+                column-gap: 5px;
+                translate: -34%;
+            }
+            .divider
+            {
+                width: 140px;
+                height: 1px;
+                background-color: rgb(220, 220, 220);
+            }
+            h4
+            {
+                font-weight: 400;
+                font-family: "Roboto", sans-serif;
+            }
+            .create
+            {
+                translate: 39%;
+                height: 38px;
+                width: 300px;
+                border-radius: 20px;
+                border: none;
+                background-color: rgb(49, 154, 252);
+                color: white;
+                font-weight: 600;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .create:hover
+            {
+                background-color: rgb(32, 145, 252);
+                transform: scale(1.01);
+            }
+            .t-and-c
+            {
+                width: 350px;
+                margin-left: 120px;
+                font-size: 13px;
+                margin-top: 10px;
+                font-family: "Roboto", sans-serif;
+            }
+            .info
+            {
+                 margin-left: 120px;
+                font-size: 18px;
+                margin-top: 10px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 600;
+                margin-top: 50px;
+            }
+            .sign-in
+            {
+                width: 300px;
+                height: 38px;
+                border-radius: 20px;
+                border: 1px solid rgb(190, 190, 190);
+                background-color: white;
+                font-size: 15px;
+                font-family: "Roboto", sans-serif;
+                color: rgb(0, 171, 227);
+                margin-left: 120px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-weight: 600;
+            }
+            .sign-in:hover
+            {
+                background-color: rgb(224, 238, 240);
+                cursor: pointer;
+                transition-duration: 0.5s;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+        <div class="aos">
+            <p class="appeaser">Happening now</p>
+            <h1 class="join-today">Join today.</h1>
+            <div class="button-one"><button class="google"><img class="google-img" src="all.pics/google.logo.png" alt="google logo">Sign up with Google</button></div>
+            <div class="button-two"><button class="apple"><img class="apple-img" src="all.pics/icons8-apple-500.png" alt="apple logo">Sign up with Apple</button></div>
+            <div class="or"><div class="divider"></div><h4>OR</h4><div class="divider"></div></div>
+            <div><button class="create">Create account</button></div>
+            <div class="t-and-c">By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.</div>
+            <div class="info">Already have an account?</div>
+            <div><button class="sign-in">Sign in</button></div>
+        </div>
+        <div class="different"><img class="twitter-logo" src="all.pics/x.png" alt="X(previously twitter's) logo"></div>
+      </main>
+    </body>
+</html>
